@@ -4,11 +4,13 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <h1>Copyright 2023</h1>
-      <p>This is the property of rhona and erick</p>
-    </footer>
-  );
-};
+
+    <div className='card'>Footer
+        <h2>Hello from the footer</h2>
+    </div>
+    
+  )
+}
+
 
 export default Footer;

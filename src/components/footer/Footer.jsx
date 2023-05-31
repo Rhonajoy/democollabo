@@ -1,14 +1,12 @@
-import React from "react";
-import "./footer.css";
-
+import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <h1>Copyright 2023</h1>
-      <p>This is the property of rhona and erick</p>
-    </footer>
-  );
-};
+    <div>Footer
+        <h2>Hello from the footer</h2>
+    </div>
+    
+  )
+}
 
-export default Footer;
+export default Footer

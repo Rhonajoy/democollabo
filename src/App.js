@@ -1,12 +1,11 @@
-import "./App.css";
-import About from "./components/about/About";
-import { Footer } from "./components/footer";
+
+import './App.css';
+import About from './components/about/About';
 
 function App() {
   return (
     <div className="App">
-      <About />
-      <Footer />
+     <About/>
     </div>
   );
 }
